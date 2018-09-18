@@ -6,4 +6,4 @@ for i in n:
 		if i==j:
 			count+=1
 	if count==1 and i!=" ":
-		print(i,end=" ")
+		print(i.lower(),end=" ")
